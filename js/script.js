@@ -24,5 +24,9 @@ for (var i = 0; i < 100; i++) {
      numeri = 'FRIZZBUZZ';  
  } else if(numeri % 3 === 0) {
      numeri = 'FRIZZ';
+ } else if (numeri % 5 === 0) {
+        numeri = 'BUZZ';
+    } 
+    console.log(numeri);
 
 } 

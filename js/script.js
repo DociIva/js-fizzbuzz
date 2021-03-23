@@ -1,4 +1,4 @@
-console.log('ciao belli');
+//console.log('ciao belli');
 //Consegna
 //Scrivi un programma che stampi i numeri da 1 a 100,
 //ma per i multipli di 3 stampi “Fizz” al posto del numero e per
@@ -19,13 +19,10 @@ var numeri;
 
 for (var i = 0; i < 100; i++) {
    numeri = i;
-    console.log(numeri);
-}
-// 2
-if( ( numeri % 3 === 0) && (numero % 5 === 0)) {
-    numero = 'FRIZZBUZZ';
+ // 2
+ if((numeri % 3 === 0) && (numeri % 5 === 0)) {
+     numeri = 'FRIZZBUZZ';  
+ } else if(numeri % 3 === 0) {
+     numeri = 'FRIZZ';
 
-} else if(numeri % 3 === 0) {
-    numero = 'BUZZ';
-}
-console.log(numeri);
+} 

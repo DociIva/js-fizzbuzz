@@ -21,4 +21,11 @@ for (var i = 0; i < 100; i++) {
    numeri = i;
     console.log(numeri);
 }
+// 2
+if( ( numeri % 3 === 0) && (numero % 5 === 0)) {
+    numero = 'FRIZZBUZZ';
 
+} else if(numeri % 3 === 0) {
+    numero = 'BUZZ';
+}
+console.log(numeri);
